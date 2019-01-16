@@ -1,5 +1,4 @@
 ---
-slug: what-i-do-when-i-get-to-new-town
 date: 2019-01-09
 title: What I do When I Get to a New Town
 content_type: blog-post

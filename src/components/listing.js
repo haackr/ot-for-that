@@ -6,7 +6,7 @@ const Listing = () => (
     query={LISTING_QUERY} 
     render={({allMarkdownRemark}) => (
       allMarkdownRemark.edges.map(({node}) => (
-        <div>
+        <div key={node.id}>
           <Link to={`/posts${node.fields.slug}`}>
             <h2>{node.frontmatter.title}</h2>
           </Link>
@@ -32,12 +32,13 @@ const LISTING_QUERY = graphql`
     }) {
       edges {
         node {
+          id
           fields {
             slug
           }
           frontmatter{
             title
-            date
+            date(formatString: "MMM DD, YYYY")
           }
           excerpt(pruneLength: 400)
         }
