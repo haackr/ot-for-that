@@ -1,9 +1,9 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import Layout from './layout';
-import SEO from './seo';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
-const PostLayout = ( {data} ) => {
+const PostTemplate = ( {data} ) => {
   const { markdownRemark } = data;
   const { html, frontmatter } = markdownRemark;
 
@@ -35,4 +35,4 @@ export const query = graphql`
   }
 `;
 
-export default PostLayout;
+export default PostTemplate;

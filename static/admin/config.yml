@@ -22,7 +22,7 @@ collections:
     label: "Pages"
     files:
       - file: "src/page-content/about.md"
-        name: "about"
+        name: about
         label: "About"
         fields:
           - { name: "content_type", default: "about-page", widget: "hidden" }
