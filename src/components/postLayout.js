@@ -21,7 +21,7 @@ const PostLayout = ( {data} ) => {
 export const query = graphql`
   query postQuery($slug: String!) {
     markdownRemark (
-      frontmatter: {
+      fields: {
         slug: {
           eq: $slug
         }

@@ -7,7 +7,7 @@ const Listing = () => (
     render={({allMarkdownRemark}) => (
       allMarkdownRemark.edges.map(({node}) => (
         <div>
-          <Link to={`/posts/${node.frontmatter.slug}`}>
+          <Link to={`/posts${node.fields.slug}`}>
             <h2>{node.frontmatter.title}</h2>
           </Link>
           <p>{node.frontmatter.date}</p>
@@ -32,8 +32,10 @@ const LISTING_QUERY = graphql`
     }) {
       edges {
         node {
-          frontmatter{
+          fields {
             slug
+          }
+          frontmatter{
             title
             date
           }

@@ -14,7 +14,6 @@ collections:
     fields:
       - { name: "content_type", default: "blog-post", widget: "hidden" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Slug", name: "slug", widget: "string" }
       - { label: "Date", name: "date", widget: "date"}
       - { label: "Post", name: "body", widget: "markdown" }
   
