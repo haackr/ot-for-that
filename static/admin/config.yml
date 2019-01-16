@@ -12,6 +12,18 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
+      - { name: "content_type", default: "blog-post", widget: "hidden" }
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
       - { label: "Date", name: "date", widget: "date"}
       - { label: "Post", name: "body", widget: "markdown" }
+  
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/page-content/about.md"
+        name: "about"
+        label: "About"
+        fields:
+          - { name: "content_type", default: "about-page", widget: "hidden" }
+          - { label: "Body", name: "body", widget: "markdown" }

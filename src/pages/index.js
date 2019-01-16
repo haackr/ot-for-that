@@ -1,13 +1,14 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from 'react';
+import { Link } from 'gatsby';
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import Listing from '../components/listing';
 
 const IndexPage = () => (
   <Layout>
     <SEO title="There's OT for That" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>There's OT for That</h1>
+    <Listing />
   </Layout>
 )
 
