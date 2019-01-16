@@ -1,0 +1,33 @@
+header {
+  background: #9ad3de;
+  margin-bottom: 1.45rem;
+  padding: 0.5rem 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 a {
+  color: #4f3060;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+
+
+nav ul a {
+  text-decoration: none;
+  color: #4f3060;
+  margin: 0 10px;
+}

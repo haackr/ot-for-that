@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import moment from 'moment';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import './post.css';
 
 const PostTemplate = ( {data, preview} ) => {
   const { markdownRemark } = data;
@@ -12,7 +13,7 @@ const PostTemplate = ( {data, preview} ) => {
     <Layout>
       <SEO title={`OT for That - ${frontmatter.title}`}/>
       <h1>{frontmatter.title}</h1>
-      <p>{moment(frontmatter.date).format("MMM DD, YYYY")}</p>
+      <p className="date">{moment(frontmatter.date).format("MMM DD, YYYY")}</p>
       {preview || <div dangerouslySetInnerHTML={{__html: html}}></div>}
     </Layout>
   )

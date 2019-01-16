@@ -1,18 +1,20 @@
 import React from 'react';
 import {Link, StaticQuery, graphql } from 'gatsby';
 import moment from 'moment';
+import './listing.css';
 
 const Listing = () => (
   <StaticQuery 
     query={LISTING_QUERY} 
     render={({allMarkdownRemark}) => (
       allMarkdownRemark.edges.map(({node}) => (
-        <div key={node.id}>
-          <Link to={`/posts${node.fields.slug}`}>
+        <div key={node.id} className="blog-item">
+          <Link to={`/posts${node.fields.slug}`} className="title">
             <h2>{node.frontmatter.title}</h2>
           </Link>
-          <p>{moment(node.frontmatter.date).format("MMM DD, YYYY")}</p>
+          <p className="date">{moment(node.frontmatter.date).format("MMM DD, YYYY")}</p>
           <p>{node.excerpt}</p>
+          <Link to={`/posts${node.fields.slug}`}>Read more...</Link>
         </div>  
       ))
     )}
