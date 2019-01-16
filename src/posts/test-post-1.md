@@ -2,7 +2,6 @@
 title: Test Post 1
 date: 2019-01-15T19:27:32.797Z
 content_type: blog-post
-slug: test-post-1
 ---
 Wolf neutra roof party, brooklyn keffiyeh kinfolk humblebrag prism coloring book hashtag chicharrones authentic tousled. Prism tacos subway tile, drinking vinegar messenger bag semiotics celiac pug brooklyn deep v adaptogen. Organic YOLO kinfolk vegan. Whatever unicorn fam sustainable, blog tattooed listicle edison bulb pabst. Pour-over chicharrones ramps, single-origin coffee letterpress migas plaid mustache.
 

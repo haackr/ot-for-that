@@ -4,9 +4,8 @@ import Layout from './layout';
 import SEO from './seo';
 
 const PostLayout = ( {data} ) => {
-  console.log(data);
   const { markdownRemark } = data;
-  const { html, frontmatter } = markdownRemark;
+  const { html, frontmatter, fields } = markdownRemark;
 
   return (
     <Layout>
@@ -28,9 +27,12 @@ export const query = graphql`
       }
     ){
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
-        date
+        date(formatString: "MMM DD, YYYY")
       }
     }
   }
