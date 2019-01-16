@@ -1,11 +1,11 @@
 import React from 'react';
-import { StaticQuery, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 import Layout from './layout';
 import SEO from './seo';
 
 const PostLayout = ( {data} ) => {
   const { markdownRemark } = data;
-  const { html, frontmatter, fields } = markdownRemark;
+  const { html, frontmatter } = markdownRemark;
 
   return (
     <Layout>
@@ -27,9 +27,6 @@ export const query = graphql`
       }
     ){
       html
-      fields {
-        slug
-      }
       frontmatter {
         title
         date(formatString: "MMM DD, YYYY")
