@@ -1,8 +1,10 @@
 ---
-title: Where Did Four Years Go?
-date: 2018-12-12
 content_type: blog-post
+title: Where Did Four Years Go?
+date: 2018-12-12T00:00:00.000Z
 ---
+![My graduation photo](/img/img_0171.jpg)
+
 Four years ago today, I graduated with my Master of Occupational Therapy degree, 12 Dec 2014. I sat for the NBCOT exam (aka BOARDS dun dun duuuun) on 6 Jan 2015, and started working on 14 Jan 2015. I am so glad I jumped in and started. We took our written Exit exams in November, while on our last Fieldwork II Rotation, and I just didn't stop studying. I felt most-prepared right away. I was about the 4th or 5th person in my class to take Boards, so I don't feel like I am out of the norm regarding this quick turn-around.
 
 It's been a wild ride these past 4 years! I feel like it's gone so fast. I spent my first 3 years in a permanent job at an outpatient pediatric practice, which I absolutely LOVED. I was a mentee, a fieldwork educator, and best of all, a friend to my coworkers. I miss them dearly! I feel like I "grew up" in a supportive environment, learned about working with Speech and Language Pathologists and Physical Therapists. I had unofficial leadership roles (basically everything was unofficial), and was able to help new therapists grow, teach old therapists about how to use the computer system (ha!), and opened the world of OT to many aspiring students (6 of my 7 undergraduate Ex Phys students and volunteer/shadows have been accepted into and started OT school).
