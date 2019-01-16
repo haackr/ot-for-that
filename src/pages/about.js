@@ -4,10 +4,10 @@ import {graphql} from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-const About = ({data}) => (
+const About = ({data, preview}) => (
   <Layout>
     <SEO title="OT for That - About"/>
-    <div dangerouslySetInnerHTML={{__html: data.markdownRemark.html}}></div>
+    {preview || <div dangerouslySetInnerHTML={{__html: data.markdownRemark.html}}></div>}
   </Layout>
 )
 

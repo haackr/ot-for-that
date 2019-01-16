@@ -1,19 +1,21 @@
 import React from 'react';
 import PostTemplate from '../../templates/post-template';
+import moment from 'moment';
 
-const BlogPostPreview = ({entry, widgetsFor}) => {
+const BlogPostPreview = ({entry, widgetFor}) => {
   const blogProps = {
-    data:{
-      frontmatter: {
-      title: widgetsFor('title'),
-      date: widgetsFor('date'),
+    data: {
+      markdownRemark: {
+        frontmatter: {
+          title: entry.getIn(['data','title']),
+          date: moment(entry.getIn(['data','date'])).format("MMM DD, YYYY"),
+        },
+      },
     },
-      html: widgetsFor('body'),
-    }
-  };
+};
 
   return (
-    <PostTemplate {...blogProps}/>
+    <PostTemplate preview={widgetFor('body')} {...blogProps}/>
   )
 };
 

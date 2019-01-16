@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link, StaticQuery, graphql } from 'gatsby';
+import moment from 'moment';
 
 const Listing = () => (
   <StaticQuery 
@@ -10,7 +11,7 @@ const Listing = () => (
           <Link to={`/posts${node.fields.slug}`}>
             <h2>{node.frontmatter.title}</h2>
           </Link>
-          <p>{node.frontmatter.date}</p>
+          <p>{moment(node.frontmatter.date).format("MMM DD, YYYY")}</p>
           <p>{node.excerpt}</p>
         </div>  
       ))
@@ -38,7 +39,7 @@ const LISTING_QUERY = graphql`
           }
           frontmatter{
             title
-            date(formatString: "MMM DD, YYYY")
+            date
           }
           excerpt(pruneLength: 400)
         }

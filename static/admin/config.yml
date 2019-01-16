@@ -9,7 +9,6 @@ collections:
   - name: "posts"
     label: "Posts"
     folder: "src/posts"
-    
     create: true
     slug: "{{slug}}"
     fields:
@@ -20,6 +19,7 @@ collections:
   
   - name: "pages"
     label: "Pages"
+    delete: false
     files:
       - file: "src/page-content/about.md"
         name: about

@@ -1,9 +1,10 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import moment from 'moment';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-const PostTemplate = ( {data} ) => {
+const PostTemplate = ( {data, preview} ) => {
   const { markdownRemark } = data;
   const { html, frontmatter } = markdownRemark;
 
@@ -11,8 +12,8 @@ const PostTemplate = ( {data} ) => {
     <Layout>
       <SEO title={`OT for That - ${frontmatter.title}`}/>
       <h1>{frontmatter.title}</h1>
-      <p>{frontmatter.date}</p>
-      <div dangerouslySetInnerHTML={{__html: html}}></div>
+      <p>{moment(frontmatter.date).format("MMM DD, YYYY")}</p>
+      {preview || <div dangerouslySetInnerHTML={{__html: html}}></div>}
     </Layout>
   )
 }
@@ -29,7 +30,7 @@ export const query = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMM DD, YYYY")
+        date
       }
     }
   }
