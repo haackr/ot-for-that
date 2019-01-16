@@ -4,7 +4,7 @@ import AboutPage from '../../pages/about';
 const AboutPagePreview =({entry, widgetFor}) => {
   const AboutProps = {data:{
     markdownRemark: {
-      html: widgetFor('body').value
+      html: entry.getIn(['data', 'body'])
     }
   }};
   return (
