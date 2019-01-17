@@ -31,3 +31,15 @@ nav ul a {
   color: #4f3060;
   margin: 0 10px;
 }
+
+@media(max-width: 500px){
+  header h1 a {
+    font-size: 2rem;
+  }
+}
+
+@media(max-width: 385px){
+  header h1 a {
+    font-size: 1.7rem;
+  }
+}

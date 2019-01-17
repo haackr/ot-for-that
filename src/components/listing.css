@@ -3,8 +3,8 @@ a.title{
   color: #4f3060;
 }
 
-a h2 {
-  margin-bottom: 0;
+.title h2 {
+  margin: 0;
 }
 
 p.date {
@@ -18,4 +18,8 @@ p.date {
   padding: 2rem;
   box-shadow: 0 4px 8px 1px #ccc;
   border-radius: 4px;
+}
+
+.blog-item .date {
+  font-size: .9rem;
 }
