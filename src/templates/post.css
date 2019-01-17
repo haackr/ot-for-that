@@ -26,8 +26,15 @@ article p {
 
 
 
-@media(max-width: 500px){
+@media(max-width: 530px){
   article p {
     font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media(max-width: 418px){
+  article p {
+    font-size: .9rem;
   }
 }

@@ -39,14 +39,20 @@ nav li a:hover {
   border-bottom: 2px solid #4f3060;
 }
 
-@media(max-width: 500px){
+@media(max-width: 530px){
   header h1 a {
     font-size: 2rem;
   }
+  nav li a{
+    font-size: 1.2rem;
+  }
 }
 
-@media(max-width: 385px){
+@media(max-width: 418px){
   header h1 a {
     font-size: 1.7rem;
+  }
+  nav li a {
+    font-size: 1rem;
   }
 }
