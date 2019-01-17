@@ -23,7 +23,7 @@ const Listing = () => (
 
 const LISTING_QUERY = graphql`
   query PostListing {
-    allMarkdownRemark (limit: 10, filter: {
+    allMarkdownRemark (filter: {
       frontmatter: {
         content_type: {
           eq: "blog-post"
