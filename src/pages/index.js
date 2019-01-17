@@ -6,7 +6,7 @@ import Listing from '../components/listing';
 
 const IndexPage = ({location}) => (
   <Layout location={location}>
-    <SEO title="There's OT for That" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="There's OT for That" keywords={[`OT`, `Occupational Therapy`, `Travel Therapy`]} />
     <Listing />
   </Layout>
 )

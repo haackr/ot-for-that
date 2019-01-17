@@ -15,8 +15,7 @@ Choosing seasonally- and weather-appropriate clothing is an important facet of d
 
 Of course, there are the physical components such as fine motor (zipping or buttoning, pinch strength to pull up pants), gross motor (coordinating arms and legs through the correct holes), and balance. There are also perceptual and executive functioning components. Sequencing is important. You don't want your underwear on the outside! (I'm talking to you Quailman. I'm a 90s kid who grew up watching Doug Funny on Nickelodeon, so this is extra great. Gotta love cartoons and OT!) 
 
-![Quailman Apraxia Meme](/static/images/Quailman Apraxia.jpg)
-*A meme has never been more true...*
+![Quailman Apraxia Meme](/static/images/Quailman Apraxia.jpg "A meme has never been more true...")
 
 Visual perceptual deficits may make it hard to discern the front of a garment from the back. Strategies and compensations for planning what to wear may be as simple as a phone reminder to check the weather. Perhaps, help can include visual supports such as weather symbols matched with pictures of clothing:
 

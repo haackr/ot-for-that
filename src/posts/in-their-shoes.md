@@ -15,8 +15,7 @@ The same is true with other development. It is amazing to me that I can even do 
 
 I often take being autonomous for granted, because it's easy for me to do the things I need to do, do them well, and do them quickly. I rarely think about how or why I do them as I'm doing the tasks. That is, until I get to work and I help anywhere from 4 to 12 children and/or adults per day take off and put on (doff and don, respectively) their shoes. Yes, we do other things, but especially in pediatrics, there's a lot of shoes off and on in order to keep mats clean. In skilled nursing and hospitals, I have to make sure clients at least have non-slip socks on before we even stand up from the bed or chair, so there's a good chance we'll be doing lower body dressing to start the session. In the last (almost) 4 years as an OT, I have probably watched (and helped as necessary, of course--I'm not an evil person who loves to watch others struggle) more shoes and socks get taken off and put back on than most people do in a whole lifetime. 
 
-![Shoes](/static/images/shoes clip art.png)
-*I think about shoes a lot and what it takes to wear them.*
+![Shoes](/static/images/shoes clip art.png "I think about shoes a lot and what it takes to wear them.")
 
 Think about putting on and taking off your shoes. What are your fingers doing? Is there a position that makes it easier? Do you have proximal stability to allow that distal mobility (if you can't hold your trunk and head up and are relying on your hands to stabilize yourself, how in the world would you ever be able to use your hands to tie your shoes)? Can you feel your laces? Does the color of the laces matter or help you see them better? In OT Land, we call this in-depth thought "activity analysis."
 

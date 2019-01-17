@@ -52,6 +52,7 @@ module.exports = {
               madWidth: 760,
               backgroundColor: `transparent`,
               quality: 100,
+              showCaptions: true,
             }
           }
         ]

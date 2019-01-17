@@ -9,8 +9,7 @@ The last few months have been a whirlwind of OT milestones! After graduating wit
 
 In April 2013, I celebrated my first OT Month. I was but a first term student, and honestly, I had no idea how occupational therapy would change my life. I certainly never would have been able to [explain it](http://www.aota.org/About-Occupational-Therapy.aspx). The picture below, taken by then-student, now-OTR Beth Bohnsack, is still used by AOTA on the [Facebook page](https://www.facebook.com/AmericanOccupationalTherapyAssociationAOTA?fref=ts)! 
 
-![University of St. Augustine for Health Sciences MOT students pose to celebrate OT Month.](/static/images/USA OT 2013.jpg)
-*University of St. Augustine for Health Sciences MOT students pose to celebrate OT Month. (I am at the top of the "O" in red shorts.) Photograph by Beth Bohnsack.*
+![University of St. Augustine for Health Sciences MOT students pose to celebrate OT Month.](/static/images/USA OT 2013.jpg "University of St. Augustine for Health Sciences MOT students pose to celebrate OT Month. \(I am at the top of the \"O\" in red shorts.\) Photograph by Beth Bohnsack.")
 
 Two years later, I am so glad that OT filled up my whole heart. I love what I do. I love seeing clients make functional improvements, big and small, day to day and week to week. It's been an exciting ride so far, and I am glad to be a part of it. Sometimes, it's really (really really) mentally and physically exhausting, but I think any new job would be. Luckily, my clients make me laugh every day. Kids really say (and do) the funniest things! It makes it easy to come to work when I get to laugh and play most of the day. Last week, I had a parent tell me that now she feels like she understands her daughter. Homework and reading goes faster; the bed time routine is easier. They are able to enjoy activities together instead of having them be a constant struggle. That certainly makes it all worth it for me. 
 

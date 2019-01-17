@@ -24,6 +24,10 @@ article p {
   margin-bottom: 3rem;
 }
 
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
 
 
 @media(max-width: 530px){
@@ -31,10 +35,17 @@ article p {
     font-size: 1rem;
     line-height: 1.5rem;
   }
+  blockquote {
+    margin-left: .5rem;
+    margin-right: 0;
+  }
 }
 
 @media(max-width: 418px){
   article p {
     font-size: .9rem;
+  }
+  blockquote {
+    margin-left: 0;
   }
 }

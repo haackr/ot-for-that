@@ -18,6 +18,7 @@ const Header = ({ siteTitle, location }) => (
       <nav>
         <ul style={{listStyle: "none"}}>
           <li className={location && location.pathname === "/" ? "current" : ""}><Link to="/">Home</Link></li>
+          <li className={location && location.pathname === "/contact" ? "current" : ""}><Link to="/contact">Contact</Link></li>
           <li className={location && location.pathname === "/about" ? "current" : ""}><Link to="/about">About</Link></li>
         </ul>
       </nav>

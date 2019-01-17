@@ -1,7 +1,6 @@
 header {
   background: #9ad3de;
   margin-bottom: 1.45rem;
-  padding: 0.5rem 0;
 }
 
 .container {
@@ -27,7 +26,7 @@ nav ul {
 li a {
   text-decoration: none;
   color: #4f3060;
-  margin: 0;
+  margin-left: 0.5rem;
   font-size: 1.3rem;
   display: block;
   padding: 8px;
@@ -39,20 +38,32 @@ nav li a:hover {
   border-bottom: 2px solid #4f3060;
 }
 
-@media(max-width: 530px){
+@media(max-width: 650px){
+  nav li a {
+    font-size: 1.1rem;
+  }
+}
+
+@media(max-width: 611px){
   header h1 a {
     font-size: 2rem;
   }
   nav li a{
-    font-size: 1.2rem;
+    font-size: 1.0rem;
   }
 }
 
-@media(max-width: 418px){
+@media(max-width: 490px){
+  header .container {
+    flex-direction: column;
+  }
+  nav ul {
+    padding: 0;
+  }
   header h1 a {
     font-size: 1.7rem;
   }
   nav li a {
-    font-size: 1rem;
+    font-size: .8rem;
   }
 }
