@@ -3,6 +3,7 @@ article {
   padding: 1.5rem 2rem;
   border-radius: 4px;
   box-shadow: 0 0 8px 1px #ccc;
+  color: #333;
 }
 
 article h1 {
