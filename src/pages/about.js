@@ -7,7 +7,9 @@ import SEO from '../components/seo';
 const About = ({data, preview}) => (
   <Layout>
     <SEO title="OT for That - About"/>
-    {preview || <div dangerouslySetInnerHTML={{__html: data.markdownRemark.html}}></div>}
+    <article>
+     {preview || <div dangerouslySetInnerHTML={{__html: data.markdownRemark.html}}></div>}
+    </article>
   </Layout>
 )
 

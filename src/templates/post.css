@@ -1,0 +1,10 @@
+article {
+  background: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 4px;
+  box-shadow: 0 0 8px 1px #ccc;
+}
+article p {
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+}
