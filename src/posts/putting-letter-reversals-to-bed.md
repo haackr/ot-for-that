@@ -12,13 +12,11 @@ Follow along, now. Make two thumbs up. Put your knuckles together so you can see
 
 Then, I got out my handy dandy Scholastic Rhyming Dictionary that I bought in 5th grade--yes, I still have it!. Together, we created a limerick about a dragon and my kiddo practiced writing the rhyming words when we were done. I gave him the prompt, "There once was a..." and he came up with the idea of a dragon and the name Flames (I suggested the name Pete haha). We flipped to the rhymes-with-aim entry, and away our imaginations went!
 
->There once was a dragon named Flames.
-
->"Kill him!" the King exclaims!
-
->So Flames called his brother,
-Father, sister, and mother,
-And they burned down the castle in flames. 
+>There once was a dragon named Flames.\
+"Kill him!" the King exclaims!\
+So Flames called his brother,\
+Father, sister, and mother,\
+And they burned down the castle in flames.\
 
 Next week I'll have him write the whole poem, illustrate it, and take it home to show his family. My mind is already full-speed-ahead on a whole dragon-themed "curriculum" we can do for the next couple of weeks to hit a bunch of areas in which he needs help. Dragon mazes... dragon bingo... castle target practice... matching dragon pictures... Among other things, I'm hoping to make writing more fun for him and eliminate those letter reversals! 
 
