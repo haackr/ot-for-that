@@ -26,6 +26,7 @@
     "react-helmet": "^5.2.0",
     "typeface-caveat": "0.0.54",
     "typeface-domine": "0.0.54",
+    "typeface-open-sans-condensed": "0.0.54",
     "typeface-roboto": "0.0.54"
   },
   "keywords": [

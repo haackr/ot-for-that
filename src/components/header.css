@@ -24,12 +24,19 @@ nav ul {
   align-items: center;
 }
 
-
-
-nav ul a {
+li a {
   text-decoration: none;
   color: #4f3060;
-  margin: 0 10px;
+  margin: 0;
+  font-size: 1.3rem;
+  display: block;
+  padding: 8px;
+  border-bottom: 2px solid transparent;
+}
+
+nav ul li.current a,
+nav li a:hover {
+  border-bottom: 2px solid #4f3060;
 }
 
 @media(max-width: 500px){
