@@ -3,6 +3,10 @@ a.title{
   color: #4f3060;
 }
 
+a.title:hover {
+  color: #75448f;
+}
+
 .title h2 {
   margin: 0;
 }
