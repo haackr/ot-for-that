@@ -87,7 +87,7 @@ I obviously didn't make a mistake in this area. I got really lucky to find out t
 
 ---
 
-Fifty-six days from graduation, **I don't regreI don't regret any of it.** All the things I've learned or wished that I had done differently have shaped me and my outlook on a new and exciting career as a healthcare practitioner. It's important to me that I think them out, write them down, and share them now. Don't be like me. Go to the beach and go out on dates. Experience all the practice settings you can. OT Land is a vast and wonderful place. 
+Fifty-six days from graduation, **I don't regret any of it.** All the things I've learned or wished that I had done differently have shaped me and my outlook on a new and exciting career as a healthcare practitioner. It's important to me that I think them out, write them down, and share them now. Don't be like me. Go to the beach and go out on dates. Experience all the practice settings you can. OT Land is a vast and wonderful place. 
 
 If you are just starting out on the journey of OT school, I hope you find this helpful, or at the very least, amusing. If you're well on your way through OT school, do me a favor and take a night off from studying and go to one new restaurant or historical landmark, wherever it is that you live. And if you're not in either of these 2 camps, congratulations for reading this whole thing. You deserve a sticker!
 

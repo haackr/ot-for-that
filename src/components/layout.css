@@ -157,3 +157,9 @@ p.social-media {
 .social-media a:hover {
   color: #eee;
 }
+
+hr {
+  height: 2px;
+  background: #8992976b;
+  border: none;
+}
