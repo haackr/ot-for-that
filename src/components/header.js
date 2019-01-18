@@ -18,8 +18,8 @@ const Header = ({ siteTitle, location }) => (
       <nav>
         <ul>
           <li className={location && location.pathname === "/" ? "current" : ""}><Link to="/">Home</Link></li>
-          <li className={location && location.pathname === "/contact" ? "current" : ""}><Link to="/contact">Contact</Link></li>
-          <li className={location && location.pathname === "/about" ? "current" : ""}><Link to="/about">About</Link></li>
+          <li className={location && location.pathname.match(/\/contact\/?/i) ? "current" : ""}><Link to="/contact">Contact</Link></li>
+          <li className={location && location.pathname.match(/\/about\/?/i) ? "current" : ""}><Link to="/about">About</Link></li>
         </ul>
       </nav>
     </div>
