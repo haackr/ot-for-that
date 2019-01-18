@@ -98,3 +98,33 @@ a:hover {
   cursor: pointer;
   color: #06bde2
 }
+
+a.title{
+  text-decoration: none;
+  color: #4f3060;
+}
+
+a.title:hover {
+  color: #75448f;
+}
+
+.title h2 {
+  margin: 0;
+}
+
+p.date {
+  margin: 0;
+  color: #585858;
+}
+
+.blog-item{
+  background: #fff;
+  margin: 0;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 1px #ccc;
+  border-radius: 4px;
+}
+
+.blog-item .date {
+  font-size: .9rem;
+}
