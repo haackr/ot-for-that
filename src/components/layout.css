@@ -133,3 +133,27 @@ p.date {
     margin-left: 0;
   }
 }
+
+footer {
+  background-color: #4f3060;
+  color: #ccc;
+  padding: 1rem;
+}
+
+footer .container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+p.social-media {
+  text-align: center;
+}
+
+.social-media a {
+  font-size: 2rem;
+  color: #ccc;
+}
+
+.social-media a:hover {
+  color: #eee;
+}
