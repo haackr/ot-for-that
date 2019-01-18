@@ -123,6 +123,15 @@ p.date {
     margin-left: .5rem;
     margin-right: 0;
   }
+  article h1 {
+    font-size: 1.6rem;
+  }
+  article h2, .title h2 {
+    font-size: 1.3rem;
+  }
+  .blog-item p{
+    font-size: .9rem;
+  }
 }
 
 @media(max-width: 418px){
@@ -131,6 +140,15 @@ p.date {
   }
   blockquote {
     margin-left: 0;
+  }
+  article h1 {
+    font-size: 1.3rem;
+  }
+  article h2 {
+    font-size: 1.1rem;
+  }
+  .blog-item p{
+    font-size: .8rem;
   }
 }
 
