@@ -3,8 +3,6 @@ title: 5 Things I Wish I Knew When I Started OT School
 date: 2014-10-17
 content_type: blog-post
 ---
-*[Note: I've copied this over from my [personal blog](http://aforamazingandy.blogspot.com/) to be the first official post of my OT-focused blog.]*
-
 There seems to be an abundance social media links to opinion pieces by the names of "X Amount of Things You Wish You Knew About X" or "X Things You Must Do Before You Turn 25" or "X Amount of Reasons to Do (or Not Do) X." I know you've noticed these too, because, hey, if you're reading this, you know how to use the internet. And these things are all over the internet. But if you haven't, I'll spare you and not link to any of them.
 
 As much as I hate myself for it, I'm not going to buck the trend. I am officially 56 days from graduating with my Masters of Occupational Therapy. That's right. FIFTY-SIX. Cue some hyperventilation. And maybe some very excited dancing by myself, especially since I found out that I passed my Exit Exam and nothing stands between me and that MOT. Now that I'm so close to finishing occupational therapy school, I feel like it's worth sharing my opinion about X Number of Things I wish I had Known When I Started OT School; let x = 5.
@@ -67,7 +65,7 @@ Don't live somewhere for 18 months and only know the inside of your school. Okay
 
 It wasn't until fourth term (after I'd lived in St. Aug for a year) that the impending doom of moving far away to go to Fieldwork (remember how my priority was to experience something new?) finally hit me. I realized there was so much more to do! I frantically ran my first timed 5k (read about it!), went paddle boarding with my aunt, savored the too-short drives to and from church with my Grandma, and ate as much frozen yogurt as I could with my friends at our [favorite local froyo shop](http://augustine.com/restaurant/coco-mango-frozen-yogurt).
 
-[I like St. Augustine a lot](http://aforamazingandy.blogspot.com/2014_05_01_archive.html). I definitely didn't just stay at home or school all the time. I mean, I went to the Lighthouse 3 times, so that counts for something, right? But I probably should have spent more time playing volleyball at the pier (there was a steep decline after second term), going to the farmers market, learning more about the history of the Ancient City, dancing more with the older people at the ballroom association, and going to a few more [Reggae Sunday](http://conch-house.com/lounge/reggae-sunday/) bashes (no, I'm kidding, one time was enough for me).  
+I like St. Augustine a lot. I definitely didn't just stay at home or school all the time. I mean, I went to the Lighthouse 3 times, so that counts for something, right? But I probably should have spent more time playing volleyball at the pier (there was a steep decline after second term), going to the farmers market, learning more about the history of the Ancient City, dancing more with the older people at the ballroom association, and going to a few more [Reggae Sunday](http://conch-house.com/lounge/reggae-sunday/) bashes (no, I'm kidding, one time was enough for me).  
 
 ## 4. I wish I had slept just a little bit more. 
 
@@ -89,7 +87,7 @@ I obviously didn't make a mistake in this area. I got really lucky to find out t
 
 ---
 
-Fifty-six days from graduation, **I don't regreI don't regret any of it.** All the things I've learned or wished that I had done differently have shaped me and my outlook on a new and exciting career as a healthcare practitioner. It's important to me that I think them out, write them down, and share them now. Don't be like me. Go to the beach and go out on dates. Experience all the practice settings you can. [OT Land](http://aforamazingandy.blogspot.com/2014_04_01_archive.html) is a vast and wonderful place. 
+Fifty-six days from graduation, **I don't regreI don't regret any of it.** All the things I've learned or wished that I had done differently have shaped me and my outlook on a new and exciting career as a healthcare practitioner. It's important to me that I think them out, write them down, and share them now. Don't be like me. Go to the beach and go out on dates. Experience all the practice settings you can. OT Land is a vast and wonderful place. 
 
 If you are just starting out on the journey of OT school, I hope you find this helpful, or at the very least, amusing. If you're well on your way through OT school, do me a favor and take a night off from studying and go to one new restaurant or historical landmark, wherever it is that you live. And if you're not in either of these 2 camps, congratulations for reading this whole thing. You deserve a sticker!
 
