@@ -17,6 +17,10 @@ header h1 a {
   font-size: 3rem;
 }
 
+header h1 a:hover {
+  color: #4f3060
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -36,6 +40,7 @@ li a {
 nav ul li.current a,
 nav li a:hover {
   border-bottom: 2px solid #4f3060;
+  color: #4f3060;
 }
 
 @media(max-width: 650px){

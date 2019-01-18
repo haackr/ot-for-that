@@ -49,3 +49,13 @@ figcaption {
     margin-left: 0;
   }
 }
+
+ a {
+  text-decoration: none;
+  color: #09859e;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #06bde2
+}
