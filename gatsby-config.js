@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `There's OT for That`,
     description: `One Occupational Therapist's Journey: navigating the call to occupational therapy, various settings in "OT Land," the country as a traveling therapist.`,
-    author: `Ryan Haack`,
+    author: `Andrea Schoeny`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -56,6 +56,13 @@ module.exports = {
             }
           }
         ]
+      }
+    },
+    {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        printRejected: true,
+        develop: true,
       }
     },
     // {

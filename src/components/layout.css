@@ -172,15 +172,19 @@ footer .container {
 
 p.social-media {
   text-align: center;
+  font-size: 2rem;
 }
 
-.social-media a {
-  font-size: 2rem;
+footer a {
   color: #ccc;
 }
 
-.social-media a:hover {
+footer a:hover {
   color: #eee;
+}
+
+footer p {
+  margin-top: 1rem;
 }
 
 hr {

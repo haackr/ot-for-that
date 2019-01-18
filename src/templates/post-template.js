@@ -13,7 +13,7 @@ const PostTemplate = ( {data, preview} ) => {
       <SEO title={`OT for That - ${frontmatter.title}`}/>
       <article>
         <h1>{frontmatter.title}</h1>
-        <p className="date">{moment(frontmatter.date).format("MMMM DD, YYYY")} - Andrea Schoeny</p>
+        <p className="date">Andrea Schoeny - {moment(frontmatter.date).format("MMMM DD, YYYY")}</p>
         {preview || <div dangerouslySetInnerHTML={{__html: html}}></div>}
       </article>
     </Layout>
