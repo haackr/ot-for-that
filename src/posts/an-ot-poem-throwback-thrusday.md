@@ -3,8 +3,6 @@ title: An OT Poem (Throwback Thursday)
 date: 2014-10-30
 content_type: blog-post
 ---
-*Note: this a throwback from my personal blog, but I thought that updating it and posting it here would be relevent.*
-
 Among my group of close friends in the lovely world of occupational therapy school, the phrase, "There's OT for that," must be the thing we say the most often. We say it as a joke. We say it in complete seriousness. We say it to tease each other when someone (usually me) bumps into a table. And sometimes we say it to prove a point: OT is a vast and amazing health field and it never ceases to amaze me. There is OT for almost everything.
 
 
@@ -28,7 +26,7 @@ Or even mail out a birthday card.\
 It's a good thing, then, that help isn't far.\
 You just need to have a little chat\
 With a therapy rising star,\
-Who will say, "There's OT for that!"\
+Who will say, "There's OT for that!"
 
 
 Please excuse the preposition at the end of the title. Let's just call it poetic license. :) My mom and my middle school English teacher are probably dying right now, but oh well.

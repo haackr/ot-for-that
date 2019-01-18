@@ -37,6 +37,7 @@ nav ul li {
   align-items: center;
   height: 100%;
   border-bottom: 2px solid transparent;
+  margin-left: 0.3rem;
 }
 
 li a {

@@ -6,8 +6,8 @@ html {
 body {
   margin: 0;
   background: #eeeeee;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 50 50'%3E%3Cg fill='%239C92AC' fill-opacity='0.08'%3E%3Cpath d='M12 0h18v6h6v6h6v18h-6v6h-6v6H12v-6H6v-6H0V12h6V6h6V0zm12 6h-6v6h-6v6H6v6h6v6h6v6h6v-6h6v-6h6v-6h-6v-6h-6V6zm-6 12h6v6h-6v-6zm24 24h6v6h-6v-6z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
-  background-position-y: -18px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='%239C92AC' fill-opacity='0.06'%3E%3Cpath d='M12 0h18v6h6v6h6v18h-6v6h-6v6H12v-6H6v-6H0V12h6V6h6V0zm12 6h-6v6h-6v6H6v6h6v6h6v6h6v-6h6v-6h6v-6h-6v-6h-6V6zm-6 12h6v6h-6v-6zm24 24h6v6h-6v-6z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+  background-position-y: 2px;
   color: #333;
   box-sizing: border-box;
 }
@@ -47,6 +47,7 @@ article {
 
 article h1 {
   margin-bottom: 0;
+  font-size: 1.8rem;
 }
 
 article h2 {
@@ -102,6 +103,10 @@ p.date {
   padding: 2rem;
   box-shadow: 0 4px 8px 1px #ccc;
   border-radius: 4px;
+}
+
+.blog-item p:last-of-type {
+  margin-bottom: 0;
 }
 
 .blog-item .date {
