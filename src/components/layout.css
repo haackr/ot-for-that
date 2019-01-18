@@ -113,6 +113,13 @@ p.date {
   font-size: .9rem;
 }
 
+.blog-title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
 
 @media(max-width: 530px){
   article p {

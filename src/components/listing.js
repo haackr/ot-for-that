@@ -8,10 +8,13 @@ const Listing = () => (
     render={({allMarkdownRemark}) => (
       allMarkdownRemark.edges.map(({node}) => (
         <div key={node.id} className="blog-item">
-          <Link to={`/posts${node.fields.slug}`} className="title">
-            <h2>{node.frontmatter.title}</h2>
-          </Link>
-          <p className="date">{moment(node.frontmatter.date).format("MMM DD, YYYY")}</p>
+          <div className="blog-title">
+            <Link to={`/posts${node.fields.slug}`} className="title">
+              <h2>{node.frontmatter.title}</h2>
+            </Link>
+            <p className="date">{moment(node.frontmatter.date).format("MMM DD, YYYY")}</p>
+          </div>
+          <p className="date">Andrea Schoeny</p>
           <p>{node.excerpt}</p>
           <p><Link to={`/posts${node.fields.slug}`}>Read more...</Link></p>
         </div>  
