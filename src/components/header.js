@@ -9,14 +9,14 @@ const Header = ({ siteTitle, location }) => (
   <header>
     <div className="container">
       <div>
-        <h1 style={{ margin: 0 , fontFamily: "Caveat", fontWeight: "lighter"}}>
+        <h1>
           <Link to="/">
             {siteTitle}
           </Link>
         </h1>
       </div>
       <nav>
-        <ul style={{listStyle: "none"}}>
+        <ul>
           <li className={location && location.pathname === "/" ? "current" : ""}><Link to="/">Home</Link></li>
           <li className={location && location.pathname === "/contact" ? "current" : ""}><Link to="/contact">Contact</Link></li>
           <li className={location && location.pathname === "/about" ? "current" : ""}><Link to="/about">About</Link></li>

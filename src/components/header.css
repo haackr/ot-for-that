@@ -1,14 +1,21 @@
 header {
   background: #9ad3de;
   margin-bottom: 1.45rem;
+  padding: 0 1rem;
 }
 
 .container {
   margin: 0 auto;
   max-width: 760px;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
+}
+
+header h1 {
+  font-family: 'Caveat';
+  font-weight: lighter;
+  margin: .3rem 0;
 }
 
 header h1 a {
@@ -17,28 +24,31 @@ header h1 a {
   font-size: 3rem;
 }
 
-header h1 a:hover {
-  color: #4f3060
-}
-
 nav ul {
   list-style: none;
   display: flex;
   align-items: center;
+  margin: 0;
+  height: 100%;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  border-bottom: 2px solid transparent;
 }
 
 li a {
   text-decoration: none;
   color: #4f3060;
-  margin-left: 0.5rem;
   font-size: 1.3rem;
   display: block;
   padding: 8px;
-  border-bottom: 2px solid transparent;
 }
 
-nav ul li.current a,
-nav li a:hover {
+nav ul li.current,
+nav li:hover {
   border-bottom: 2px solid #4f3060;
   color: #4f3060;
 }
@@ -49,7 +59,10 @@ nav li a:hover {
   }
 }
 
-@media(max-width: 611px){
+@media(max-width: 620px){
+  header h1 {
+    margin: 0.1rem;
+  }
   header h1 a {
     font-size: 2rem;
   }
@@ -58,15 +71,20 @@ nav li a:hover {
   }
 }
 
-@media(max-width: 490px){
+@media(max-width: 500px){
   header .container {
     flex-direction: column;
+    align-items: center;
   }
   nav ul {
     padding: 0;
+    margin: 0;
   }
   header h1 a {
     font-size: 1.7rem;
+  }
+  header h1{
+    margin: 0;
   }
   nav li a {
     font-size: .8rem;

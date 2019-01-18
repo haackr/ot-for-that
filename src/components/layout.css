@@ -68,35 +68,14 @@ figcaption {
   font-style: italic;
 }
 
-
-@media(max-width: 530px){
-  article p {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-  blockquote {
-    margin-left: .5rem;
-    margin-right: 0;
-  }
-}
-
-@media(max-width: 418px){
-  article p {
-    font-size: .9rem;
-  }
-  blockquote {
-    margin-left: 0;
-  }
-}
-
  a {
   text-decoration: none;
-  color: #09859e;
+  color: #007d96
 }
 
-a:hover {
+p a:hover, .blog-item a:hover {
   cursor: pointer;
-  color: #06bde2
+  color: #005e71
 }
 
 a.title{
@@ -104,8 +83,8 @@ a.title{
   color: #4f3060;
 }
 
-a.title:hover {
-  color: #75448f;
+a.title:hover{
+  color: #4f3060;
 }
 
 .title h2 {
@@ -127,4 +106,25 @@ p.date {
 
 .blog-item .date {
   font-size: .9rem;
+}
+
+
+@media(max-width: 530px){
+  article p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  blockquote {
+    margin-left: .5rem;
+    margin-right: 0;
+  }
+}
+
+@media(max-width: 418px){
+  article p {
+    font-size: .9rem;
+  }
+  blockquote {
+    margin-left: 0;
+  }
 }

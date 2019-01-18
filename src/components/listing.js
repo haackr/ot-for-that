@@ -1,7 +1,6 @@
 import React from 'react';
 import {Link, StaticQuery, graphql } from 'gatsby';
 import moment from 'moment';
-import './listing.css';
 
 const Listing = () => (
   <StaticQuery 
@@ -14,7 +13,7 @@ const Listing = () => (
           </Link>
           <p className="date">{moment(node.frontmatter.date).format("MMM DD, YYYY")}</p>
           <p>{node.excerpt}</p>
-          <Link to={`/posts${node.fields.slug}`}>Read more...</Link>
+          <p><Link to={`/posts${node.fields.slug}`}>Read more...</Link></p>
         </div>  
       ))
     )}

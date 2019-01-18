@@ -3,7 +3,6 @@ import { graphql } from 'gatsby';
 import moment from 'moment';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import './post.css';
 
 const PostTemplate = ( {data, preview} ) => {
   const { markdownRemark } = data;
