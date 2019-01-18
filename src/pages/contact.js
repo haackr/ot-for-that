@@ -14,7 +14,7 @@ const Contact = ({location}) => (
         <label htmlFor="name">Your Name:</label>
         <input type="text" name="name" required/>
         <label htmlFor="email">Your Email:</label>
-        <input type="text" name="email" required/>
+        <input type="email" name="email" required/>
         <label htmlFor="message">Message:</label>
         <textarea name="message" rows="15" required></textarea>
         <button type="submit">Send</button>
