@@ -37,3 +37,64 @@ p{
 input, button, select, textarea {
   font-family: inherit;
 }
+article {
+  background: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 4px;
+  box-shadow: 0 0 8px 1px #ccc;
+  color: #333;
+}
+
+article h1 {
+  margin-bottom: 0;
+}
+
+article h2 {
+  font-size: 1.4rem;
+}
+
+article .date {
+  font-size: .8rem;
+}
+
+article p {
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+  margin-bottom: 3rem;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
+
+
+@media(max-width: 530px){
+  article p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  blockquote {
+    margin-left: .5rem;
+    margin-right: 0;
+  }
+}
+
+@media(max-width: 418px){
+  article p {
+    font-size: .9rem;
+  }
+  blockquote {
+    margin-left: 0;
+  }
+}
+
+ a {
+  text-decoration: none;
+  color: #09859e;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #06bde2
+}
