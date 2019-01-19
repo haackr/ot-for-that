@@ -28,6 +28,7 @@ const Layout = ({ children, location }) => (
             maxWidth: 760,
             padding: `0px 1.0875rem 1.45rem`,
             paddingTop: 0,
+            minHeight: '75vh'
           }}
         >
           {children}
