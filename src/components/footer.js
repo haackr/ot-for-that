@@ -5,7 +5,7 @@ const Footer = () => (
   <footer>
     <div className="container">
       <p class="social-media"><a href="https://www.instagram.com/thereis.ot.forthat/" title="Follow There's OT For That on Instagram"><i className="fab fa-instagram"></i></a></p>
-      <p><em><a>Developed by Ryan Haack</a></em></p>
+      <p class="text-right"><em><a>Developed by Ryan Haack</a></em></p>
     </div>
   </footer>
 )

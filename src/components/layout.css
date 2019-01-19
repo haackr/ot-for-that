@@ -187,6 +187,10 @@ footer p {
   margin-top: 1rem;
 }
 
+p.text-right {
+  text-align: right;
+}
+
 hr {
   height: 2px;
   background: #8992976b;
