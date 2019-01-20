@@ -5,11 +5,10 @@ header {
 }
 
 header .container {
-  margin: 0 auto;
-  max-width: 760px;
   display: flex;
   align-items: stretch;
   justify-content: space-between;
+  padding: 0;
 }
 
 header h1 {

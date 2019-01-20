@@ -20,21 +20,15 @@ const Layout = ({ children, location }) => (
       }
     `}
     render={data => (
-      <>
+      <div className="page">
         <Header siteTitle={data.site.siteMetadata.title} location={location} />
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 760,
-            padding: `0px 1.0875rem 1.45rem`,
-            paddingTop: 0,
-            minHeight: '75vh'
-          }}
-        >
-          {children}
+        <div className="content">
+          <div className='container'>
+            {children}
+          </div>
         </div>
         <Footer />
-      </>
+      </div>
     )}
   />
 )
