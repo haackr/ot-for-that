@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
+import icon32 from '../../static/images/icons/favicon-32x32.png';
 
 function SEO({ description, lang, meta, keywords, title }) {
   return (
@@ -60,6 +61,13 @@ function SEO({ description, lang, meta, keywords, title }) {
                   : []
               )
               .concat(meta)}
+              link={[
+                {
+                  rel: 'shortcut icon',
+                  type: 'image/png',
+                  href: `${icon32}`
+                }
+              ]}
           />
         )
       }}

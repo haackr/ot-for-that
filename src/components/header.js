@@ -1,6 +1,7 @@
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
+import logo from '../images/ot-for-that-logo.svg'
 import 'typeface-caveat';
 import 'typeface-open-sans-condensed'
 import './header.css';
@@ -9,11 +10,9 @@ const Header = ({ siteTitle, location }) => (
   <header>
     <div className="container">
       <div>
-        <h1>
-          <Link to="/">
-            {siteTitle}
-          </Link>
-        </h1>
+        <Link to="/">
+          <img src={logo} height="75px" className="logo"/>
+        </Link>
       </div>
       <nav>
         <ul>
