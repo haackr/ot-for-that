@@ -77,10 +77,22 @@ module.exports = {
         name: `There's OT For That`,
         short_name: `OT For That`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#9ad3de`,
+        theme_color: `#9ad3de`,
         display: `minimal-ui`,
-        icon: `static/images/icons/favicon-32x32.png`, // This path is relative to the root of the site.
+        icon: `static/images/icons/apple-touch-icon.png`, // This path is relative to the root of the site.
+        icons: [
+          {
+            src: `static/images/icons/android-chrome-192x192.png`,
+            sizes: `192x192`,
+            type: `image/png`
+          },
+          {
+            src:`static/images/icons/android-chrome-512x512.png`,
+            sizes: `512x512`,
+            type: `image/png`
+          },
+        ]
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
