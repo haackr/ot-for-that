@@ -80,19 +80,7 @@ module.exports = {
         background_color: `#9ad3de`,
         theme_color: `#9ad3de`,
         display: `minimal-ui`,
-        icon: `static/images/icons/apple-touch-icon.png`, // This path is relative to the root of the site.
-        icons: [
-          {
-            src: `static/images/icons/android-chrome-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`
-          },
-          {
-            src:`static/images/icons/android-chrome-512x512.png`,
-            sizes: `512x512`,
-            type: `image/png`
-          },
-        ]
+        icon: `static/images/icons/android-chrome-512x512.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
