@@ -79,7 +79,6 @@ module.exports = {
         start_url: `/`,
         background_color: `#9ad3de`,
         theme_color: `#9ad3de`,
-        display: `minimal-ui`,
         icon: `static/images/icons/android-chrome-512x512.png`, // This path is relative to the root of the site.
       },
     },
