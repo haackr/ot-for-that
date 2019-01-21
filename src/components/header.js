@@ -11,7 +11,7 @@ const Header = ({ siteTitle, location }) => (
     <div className="container">
       <div>
         <Link to="/">
-          <img src={logo} height="75px" className="logo" alt="There's OT For That" />
+          <img src={logo} height="70px" className="logo" alt="There's OT For That" />
         </Link>
       </div>
       <nav>
