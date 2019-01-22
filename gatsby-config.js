@@ -3,6 +3,7 @@ module.exports = {
     title: `There's OT for That`,
     description: `One Occupational Therapist's Journey: navigating the call to occupational therapy, various settings in "OT Land," the country as a traveling therapist.`,
     author: `Andrea Schoeny`,
+    siteUrl: `https://www.otforthat.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -92,6 +93,7 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`
       },
     },
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-netlify-cache`,
     `gatsby-plugin-netlify` // THIS MUST BE LAST!!!
   ],
