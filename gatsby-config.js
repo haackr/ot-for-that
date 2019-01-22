@@ -63,6 +63,7 @@ module.exports = {
       options: {
         printRejected: true,
         develop: true,
+        ignore: [`src/`],
       }
     },
     {
@@ -91,6 +92,7 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`
       },
     },
+    `gatsby-plugin-netlify-cache`,
     `gatsby-plugin-netlify` // THIS MUST BE LAST!!!
   ],
 }
